@@ -1,0 +1,43 @@
+.navbar {
+    transform: translateX(-50%);
+}
+
+.hero-section {
+    background: linear-gradient(#000A03, #061F0D);
+}
+
+.top-left-shape {
+    width: 1092px;
+    height: 380px;
+    background: linear-gradient(127deg, #d3d3d3, #434b47, #000A03, #021006);
+}
+
+.primary-btn-bg-color {
+    background: radial-gradient(circle, #318E4D, #135426);
+    padding: 30px 20px;
+    font-size: 20px;
+    border-top: 1px solid white;
+}
+
+.btn-texts {
+    background: linear-gradient(#318E4D, #135426);
+    height: 115px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 11px;
+    border: 1px solid #318E4D;
+}
+
+.under-image {
+    box-shadow: 6px -5px 8px rgba(0, 0, 0, 0.3);
+}
+.image-under-wrapper{
+    transform: translateX(-50%);
+}
+.video-icon{
+    transform: translate(-50%,-50%);
+
+}
