@@ -13,6 +13,7 @@ export default function Footer() {
                         <Button variant={"primary_btn"} className='mt-[40px] rounded-[30px]'>Contact us</Button>
                     </div>
                     <div>
+
                         <img src={logo} alt="" />
                     </div>
                 </div>
