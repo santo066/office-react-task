@@ -9,9 +9,6 @@ import { IoArrowForwardOutline } from "react-icons/io5";
 import { FaPlay } from "react-icons/fa6";
 
 
-
-
-
 export default function Hero() {
     return (
         <div className="bg-slate-600 relative hero-section h-[auto]">

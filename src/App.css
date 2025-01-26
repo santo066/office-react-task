@@ -18,6 +18,11 @@
     font-size: 20px;
     border-top: 1px solid white;
 }
+.primary-btn-bg-color2 {
+    background: radial-gradient(circle, #318E4D, #135426);
+    padding: 30px 20px;
+    font-size: 20px;
+}
 
 .btn-texts {
     background: linear-gradient(#318E4D, #135426);
@@ -34,10 +39,47 @@
 .under-image {
     box-shadow: 6px -5px 8px rgba(0, 0, 0, 0.3);
 }
-.image-under-wrapper{
+
+.image-under-wrapper {
     transform: translateX(-50%);
 }
-.video-icon{
-    transform: translate(-50%,-50%);
 
+.video-icon {
+    transform: translate(-50%, -50%);
+
+}
+
+.under-div {
+    background: linear-gradient(#318E4D, #135426);
+
+}
+
+.tab-btn-group {
+    display: flex;
+    position: absolute;
+    bottom: 23px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 12px;
+    border: 1px solid #DCEEE2;
+}
+
+.single-slider{
+    background: linear-gradient(#04170a24, #04170A);
+}
+.mySwiper .swiper-wrapper{
+    padding-top: 200px;
+}
+
+.mySwiper .swiper-wrapper .swiper-slide{
+    transform: translateY(0px);
+    transition: all 0.6s;
+}
+.mySwiper .swiper-wrapper .swiper-slide:hover{
+    transform: translateY(-100px);
+    transition: all 0.6s;
+}
+.step{
+    padding: 5px 15px;
+    background-color: #DCEEE2;
 }
