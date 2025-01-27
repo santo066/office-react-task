@@ -14,12 +14,12 @@ export default function Hero() {
         <div className="bg-slate-600 relative hero-section h-[auto]">
             <div className="top-left-shape absolute"></div>
             <Header></Header>
-            <div className="max-w-[1280px] mx-auto flex justify-between pt-[150px]">
+            <div className="max-w-[1280px] mx-auto flex justify-between pt-[150px] res-hero-main-wrapper">
                 <div className="hero-content static z-[999] top-[220px] flex flex-col items-start gap-0">
-                    <div className="ml-24">
-                        <h1 className="text-[96px]/[150%] tracking-[2px] text-white font-light">Explore</h1>
+                    <div className="ml-24 margine-l-0">
+                        <h1 className="text-[96px]/[150%] tracking-[2px] text-white font-light tab-font-size">Explore</h1>
                     </div>
-                    <div className="flex justify-center items-center gap-4">
+                    <div className="flex justify-center items-center gap-4 flex-colum">
                         <div>
                             <div className="avatar-group -space-x-6 rtl:space-x-reverse bg-[#0A2713] p-[10px] rounded-[32px]">
                                 <div className="avatar border-[#061F0D]">
@@ -50,11 +50,11 @@ export default function Hero() {
                             </div>
                         </div>
                         <div>
-                            <h1 className="text-[96px]/[150%] tracking-[2px] text-white font-light">Infinite</h1>
+                            <h1 className="text-[96px]/[150%] tracking-[2px] text-white font-light tab-font-size">Infinite</h1>
                         </div>
                     </div>
                     <div>
-                        <h1 className="text-[96px]/[150%] tracking-[2px] text-white font-light">Metaverse</h1>
+                        <h1 className="text-[96px]/[150%] tracking-[2px] text-white font-light tab-font-size">Metaverse</h1>
                     </div>
                     <Button variant={"primary"} className='mt-[30px]'>Get Started</Button>
                     <div className="counter-wrapper flex gap-[30px] items-center justify-between absolute bottom-[170px]">
@@ -138,14 +138,14 @@ export default function Hero() {
                 <svg width="100%" viewBox="0 0 1490 210" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path fill-rule="evenodd" clip-rule="evenodd" d="M60 119C26.8629 119 0 145.863 0 179V205C0 207.761 2.23856 210 4.99998 210H1498C1505.73 210 1512 203.732 1512 196V60C1512 26.8629 1485.14 0 1452 0H775.962C755.983 0 737.315 9.94459 726.168 26.5251L681.832 92.4749C670.685 109.055 652.017 119 632.038 119H60Z" fill="#DCEEE2" />
                 </svg>
-                <div className="absolute right-[60px] top-[60px]">
+                <div className="absolute res-bottom-shap-2-absolute right-[60px] top-[60px]">
                     <div className="relative">
-                        <svg width="812" height="169" viewBox="0 0 812 169" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <svg className="res-bottom-shap-2" width="812" height="169" viewBox="0 0 812 169" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M6.94805 106.571C-11.0399 133.133 7.9885 169 40.0681 169H771.434C793.526 169 811.434 151.091 811.434 129V40C811.434 17.9086 793.526 0 771.434 0H100.34C87.0685 0 74.6613 6.58226 67.2197 17.5708L6.94805 106.571Z" fill="#C4C4C4" />
                         </svg>
                         <div className="w-[124px] mb-[6px] flex items-center justify-center h-[124px] rounded-[50%] bg-[#13542674] absolute top-[50%] left-[50%] video-icon">
                             <div className="w-[82px] h-[82px] rounded-[50%] bg-[#135426] flex items-center justify-center border-[1px] border-[#318E4D]">
-                                <FaPlay className="text-[32px] text-white" />
+                                <FaPlay className="text-[32px] text-white play-icon" />
                             </div>
                         </div>
                     </div>
