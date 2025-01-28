@@ -5,13 +5,13 @@ import { IoMdArrowForward } from "react-icons/io";
 
 export default function Works() {
     return (
-        <div className="bg-[#DCEEE2] pt-[100px] pb-[100px]">
+        <div className="bg-[#DCEEE2] pt-[100px] pb-[100px] work-section">
             <div className=" max-w-[1280px] mx-auto">
-                <div className="mb-16">
-                    <h2 className="text-[48px] text-[#04170A] font-semibold">How it’s <span className="text-[#318E4D]">works?</span></h2>
+                <div className="mb-16 work-section-top">
+                    <h2 className="font-38 text-[48px] text-[#04170A] font-semibold">How it’s <span className="text-[#318E4D]">works?</span></h2>
                 </div>
-                <div className="flex justify-between items-end">
-                    <div className="relative w-[732px]">
+                <div className="flex justify-between items-end work-flex">
+                    <div className="relative w-[732px] work-flex-left">
                         <svg width="732" height="320" viewBox="0 0 732 320" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M0 30C0 13.4315 13.4315 0 30 0H524.557C534.376 0 543.573 4.80449 549.181 12.8634L560.506 29.1366C566.115 37.1955 575.312 42 585.13 42L702 42C718.569 42 732 55.4315 732 72V290C732 306.569 718.569 320 702 320H30C13.4315 320 0 306.569 0 290V30Z" fill="#04170A" />
                         </svg>
@@ -25,7 +25,7 @@ export default function Works() {
                             <h2 className="text-[40px] font-semibold text-white max-w-[280px]">Sign Up & Create Your Avatar</h2>
                         </div>
                     </div>
-                    <div className="w-[516px] h-[275px] bg-[#04170A] rounded-[30px] relative">
+                    <div className="work-flex-right w-[516px] h-[275px] bg-[#04170A] rounded-[30px] relative">
                         <div className="h-[255px] w-[133px] bg-[#C4C4C4] rounded-[30px] absolute top-[10px] left-[10px]">
                         </div>
                         <div className="absolute top-[46px] right-[26px]">
@@ -34,7 +34,7 @@ export default function Works() {
                         </div>
                     </div>
                 </div>
-                <div className="flex justify-between items-center mt-9">
+                <div className="flex justify-between items-center mt-9 work-bottom">
                     <div>
                         <span className="text-[20px] text-[#318E4D] font-bold">Step 02</span>
                         <p className="max-w-[312px] text-[20px] text-[#38453C] font-medium">Explore immersive worlds and vibrant hubs.</p>

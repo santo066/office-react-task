@@ -4,8 +4,8 @@ import SocialWorld from "./SocialWorld/SocialWorld";
 import Tab from "./Tab/Tab";
 import Works from "./Works/Works";
 
-export default function Home(){
-    return(
+export default function Home() {
+    return (
         <div>
             <Hero></Hero>
             <SocialWorld></SocialWorld>

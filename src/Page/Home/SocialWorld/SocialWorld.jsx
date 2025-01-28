@@ -6,11 +6,11 @@ import { Button } from "@/components/ui/button";
 
 export default function SocialWorld() {
     return (
-        <div className="bg-[#DCEEE2] pt-16 pb-[200px]">
-            <div className="max-w-[600px] text-center mx-auto">
+        <div className="bg-[#DCEEE2] pt-16 pb-[100px] SocialWorld-section">
+            <div className="max-w-[600px] text-center mx-auto SocialWorld-section-top">
                 <h2 className="text-[48px] font-semibold text-[#04170A]">Metaverse, Meet Your Social World</h2>
             </div>
-            <div className="max-w-[1280px] mx-auto flex justify-between items-center mt-16">
+            <div className="max-w-[1280px] mx-auto flex justify-between items-center mt-16 social-world-wrapper">
                 <div className="social-left w-[626px] h-[489px] relative">
                     <svg width="626" height="489" viewBox="0 0 626 489" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <mask id="path-1-inside-1_2031_5" fill="white">
@@ -41,7 +41,7 @@ export default function SocialWorld() {
                         </span>
                     </div>
                 </div>
-                <div className='relative'>
+                <div className='relative social-right'>
                     <svg width="622" height="489" viewBox="0 0 622 489" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd" d="M0 30C0 13.4315 13.4314 0 30 0H411.557C421.376 0 430.573 4.80449 436.181 12.8634L447.506 29.1366C453.115 37.1955 462.312 42 472.13 42L592 42C608.569 42 622 55.4315 622 72V459C622 475.569 608.569 489 592 489H30C13.4315 489 0 475.569 0 459V30Z" fill="#04170A" />
                     </svg>

@@ -10,22 +10,36 @@ import 'swiper/css/pagination';
 
 export default function Slider() {
     return (
-        <div className="bg-[#DCEEE2] pt-[100px] pb-[100px]">
-            <div className="max-w-[1280px] mx-auto flex justify-between items-center">
-                <div className="max-w-[550px]">
+        <div className="bg-[#DCEEE2] pt-[100px] pb-[100px] slider-section-wrapper">
+            <div className="max-w-[1280px] mx-auto flex justify-between items-center text-flex">
+                <div className="max-w-[550px] slider-title-text">
                     <p className="text-[20px] text-[#318E4D] uppercase">Why choose us</p>
                     <h2 className="text-[48px]/[130%] font-semibold text-[#04170A]">Accessible Metaverse, Anytime, <span className="text-[#318E4D]">Anywhere</span></h2>
                 </div>
-                <div className="max-w-[400px]">
+                <div className="max-w-[400px] slider-title-text-p">
                     <p className="text-[#04170A] text-[20px] font-semibold mb-4">Monetize Your Virtual Dreams</p>
                     <p className="text-[#38453C] text-[20px] font-normal mb-4">A platform designed for all devices, delivering seamless access and optimized performance to keep you connected to your digital universe.</p>
                 </div>
             </div>
             <div className="slider-container">
                 <Swiper
-                    slidesPerView={4.5}
+                    slidesPerView={1}
                     spaceBetween={30}
                     className="mySwiper"
+                    breakpoints={{
+                        576: {
+                            slidesPerView: 2,
+                            spaceBetween: 20,
+                        },
+                        768: {
+                            slidesPerView: 3,
+                            spaceBetween: 20,
+                        },
+                        1024: {
+                            slidesPerView: 4.5,
+                            spaceBetween: 20,
+                        },
+                    }}
                 >
                     <SwiperSlide>
                         <div className='h-[414px] single-slider rounded-[20px] relative'>

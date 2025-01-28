@@ -1,12 +1,12 @@
 import '../../../app.css'
 export default function Tab() {
     return (
-        <div className="bg-[#DCEEE2] pb-[200px] relative h-[900px]">
-            <div className="max-w-[600px] text-center mx-auto mb-[100px]">
-                <h2 className="text-[55px] font-semibold text-[#04170A]">Learn and Grow in the <span className="text-[#318E4D]">Metaverse</span></h2>
+        <div className="bg-[#DCEEE2] pb-[200px] relative h-[900px] tab-section-wrapper">
+            <div className="max-w-[600px] text-center mx-auto mb-[100px] font-wrapper">
+                <h2 className="text-[55px] font-semibold text-[#04170A] font">Learn and Grow in the <span className="text-[#318E4D]">Metaverse</span></h2>
             </div>
             <div>
-                <div className="w-[1056px] h-[479px] bg-[#C4C4C4] mx-auto rounded-[40px] relative">
+                <div className="w-[1056px] h-[479px] bg-[#C4C4C4] mx-auto rounded-[40px] relative tab-middle-wrapper">
                     <div className="py-[10px] px-[12px] bg-[#DCEEE239] rounded-[40px]  mx-auto inline-block tab-btn-group">
                         <a href="#" className="py-[6.5px] px-[17px] text-[#04170A] bg-[#DCEEE2] rounded-[24px] ">Monetize</a>
                         <a href="#" className="py-[6.5px] px-[17px] text-[#04170A] bg-[#DCEEE2] rounded-[24px] ">VirtualReality</a>
@@ -43,10 +43,10 @@ export default function Tab() {
                     </a>
                 </div>
             </div>
-            <div className='w-[343px] h-[318px] bg-[#C4C4C4] rounded-[30px] top-0 left-[-145px] absolute'></div>
-            <div className='w-[194px] h-[181px] bg-[#C4C4C4] rounded-[30px] top-0 right-[15px] absolute'></div>
-            <div className='w-[259px] h-[318px] bg-[#C4C4C4] rounded-l-[30px] bottom-0 right-[0px] absolute '></div>
-            <div className='w-[315px] h-[195px] bg-[#C4C4C4] rounded-[30px] bottom-0 left-[-116px] absolute'></div>
+            <div className='shap-1 w-[343px] h-[318px] bg-[#C4C4C4] rounded-[30px] top-0 left-[-145px] absolute'></div>
+            <div className='shap-2 w-[194px] h-[181px] bg-[#C4C4C4] rounded-[30px] top-0 right-[15px] absolute'></div>
+            <div className='w-[259px] h-[318px] bg-[#C4C4C4] rounded-l-[30px] bottom-0 right-[0px] absolute shap-4'></div>
+            <div className='w-[315px] h-[195px] bg-[#C4C4C4] rounded-[30px] bottom-0 left-[-116px] absolute shap-3'></div>
         </div>
     )
 }
