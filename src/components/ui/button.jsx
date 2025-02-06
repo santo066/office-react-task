@@ -4,6 +4,7 @@ import { cva } from "class-variance-authority";
 
 import { cn } from "@/lib/utils"
 import '../../app.css';
+import '../../homenew.css';
 
 const buttonVariants = cva(
   "inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0",
@@ -21,6 +22,7 @@ const buttonVariants = cva(
         link: "text-primary underline-offset-4 hover:underline",
         primary:'text-white text-[20px] font-semibold primary-btn-bg-color rounded-[20px]',
         primary_btn:'text-white text-[20px] font-semibold primary-btn-bg-color2 rounded-[20px]',
+        homeNewButton:'hn-Primary-btn text-white rounded-[50px]'
       },
       size: {
         default: "h-10 px-4 py-2",
