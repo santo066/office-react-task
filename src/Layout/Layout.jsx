@@ -8,11 +8,11 @@ import { Outlet } from "react-router-dom";
 export default function Layout() {
     return (
         <div className="#f7f6f2">
-            <HeaderNew></HeaderNew>
+            {/* <HeaderNew></HeaderNew> */}
             {/* <Header></Header> */}
             <Outlet></Outlet>
-            {/* <Footer></Footer> */}
-            <FooterNew></FooterNew>
+            <Footer></Footer>
+            {/* <FooterNew></FooterNew> */}
         </div>
     )
 }
